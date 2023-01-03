@@ -1,0 +1,22 @@
+DATASET:
+    # >>> Data
+    DATA_NAME : Decagon
+    DATA_PATH : /data/Decagon/
+
+    # >>> Original Dataset Path
+    COMBO_PATH : /data/Decagon/bio-decagon-combo.csv
+    EFFECT_PATH : /data/Decagon/bio-decagon-effectcategories.csv
+
+    # >>> Processed Filepath
+    SAVE_PATH : ./checkpoints/Decagon/
+    PROCESSED_DIR : /data/Decagon/processed/
+    PROCESSED_PATH : /data/Decagon/processed/bio-decagon-processed.csv
+
+    # >>> Dataset specifics
+    NUM_MIN_INTERACTION : 498
+    RUN_PREPROCESS : False
+    RUN_SPLIT : False
+    TRAIN_SPLIT_RATIO : 0.8
+    VAL_SPLIT_RATIO : 0.1
+    LABEL_TYPE: multi
+    MULTI_LABEL_DICT: /data/Decagon/processed/multi-label-dict.json

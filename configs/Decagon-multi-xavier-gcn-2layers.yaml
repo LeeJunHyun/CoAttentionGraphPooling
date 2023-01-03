@@ -1,0 +1,10 @@
+_MODEL_: ./configs/model.yaml
+_DATASET_: ./configs/decagon.yaml
+_SOLVER_: ./configs/solver.yaml
+
+# Hyper Parameters
+HYPERPARAMS:
+    INIT: XAVIER
+    GCN_TYPE: GCN
+    NUM_LAYER : 2
+    GLOBAL_POOL: AVG

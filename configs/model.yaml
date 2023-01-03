@@ -1,0 +1,19 @@
+MULTI_MODEL:
+    NUM_FEATURES : 62
+    NUM_HIDDEN : 64
+    MIN_NODES : 20
+    LABEL_TYPE : multi
+    CONV_CHANNEL : 4
+    NUM_CLASS : 964
+    K : 16
+    POOL_RATIO : 1.0
+
+BINARY_MODEL:
+    NUM_FEATURES : 62
+    NUM_HIDDEN : 64
+    MIN_NODES : 20
+    LABEL_TYPE : multi
+    CONV_CHANNEL : 4
+    NUM_CLASS : 964
+    K : 16
+    POOL_RATIO : 0.5

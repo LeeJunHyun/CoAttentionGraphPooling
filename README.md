@@ -10,12 +10,34 @@ This repository provides an implementation of Co-Attention Graph Pooling (CAGPoo
 - numpy
 - scipy
 
+```bash
+# Create rdkit environment
+$ conda create -c rdkit -n rdkit-env python=3.6 rdkit
+$ conda activate rdkit-env
+$ pip install pubchempy
+
+# PyTorch 1.3.1
+$ conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
+
+# PyTorch Geometric
+$ pip install --verbose --no-cache-dir torch-scatter
+$ pip install --verbose --no-cache-dir torch-sparse
+$ pip install --verbose --no-cache-dir torch-cluster
+$ pip install --verbose --no-cache-dir torch-spline-conv (optional)
+$ pip install torch-geometric
+
+# PyYaml
+$ pip install pyyaml
+```
 
 ## Dataset
 This implementation uses datasets stored in pickle format. The dataset should contain two kinds of information:
 - The feature matrix of the nodes
 - The adjacency matrices for each edge type
 
+<p align="center"><img width="100%" src="./imgs/polypharmacy-graph.png"></p>
+
+Download the dataset from the official [website](http://snap.stanford.edu/decagon/).
 Dataset processing is handled by the `DecagonDataset_binary` and `DecagonDataset_multi` classes based on the selected label type (binary or multi).
 
 

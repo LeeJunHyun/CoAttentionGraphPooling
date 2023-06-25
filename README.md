@@ -35,7 +35,7 @@ This implementation uses datasets stored in pickle format. The dataset should co
 - The feature matrix of the nodes
 - The adjacency matrices for each edge type
 
-<p align="center"><img width="100%" src="./imgs/polypharmacy-graph.png"></p>
+<p align="center"><img width="100%" src="./imgs/polypharmacy_graph.png"></p>
 
 Download the dataset from the official [website](http://snap.stanford.edu/decagon/).
 Dataset processing is handled by the `DecagonDataset_binary` and `DecagonDataset_multi` classes based on the selected label type (binary or multi).

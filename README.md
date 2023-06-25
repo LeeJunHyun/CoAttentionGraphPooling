@@ -31,7 +31,7 @@ You need to create a configuration file (cfg) with all the necessary parameters 
 
 
 
-Usage
+## Usage
 
 To run the training phase:
 

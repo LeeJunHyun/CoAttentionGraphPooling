@@ -21,7 +21,6 @@ Our method, Co-Attention Graph Pooling (CAGPool), shows competitive performance 
 # Create rdkit environment
 $ conda create -c rdkit -n rdkit-env python=3.6 rdkit
 $ conda activate rdkit-env
-$ pip install pubchempy
 
 # PyTorch 1.3.1
 $ conda install pytorch torchvision cudatoolkit=10.1 -c pytorch

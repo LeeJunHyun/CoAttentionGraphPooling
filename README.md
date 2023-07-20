@@ -1,7 +1,14 @@
-# CoAttentionGraphPooling
-This repository provides an implementation of Co-Attention Graph Pooling (CAGPool) model in the paper 'Co-attention Graph Pooling for Efficient Pairwise Graph Interaction Learning' using PyTorch and the PyTorch Geometric library. 
+# Co-attention Graph Pooling for Efficient Pairwise Graph Interaction Learning
+This repository provides an implementation of Co-Attention Graph Pooling (CAGPool) model in the paper 'Co-attention Graph Pooling for Efficient Pairwise Graph Interaction Learning' (IEEE Access) using PyTorch and the PyTorch Geometric library. 
 
 <p align="center"><img width="100%" src="./imgs/CAGPool.png"></p>
+
+## Abstract
+Graph Neural Networks (GNNs) have proven to be effective in processing and learning from graph-structured data.
+However, many real-world tasks require the analysis of pairs of graph-structured data, such as scene graph matching, code search, and drug-drug interaction prediction. 
+Previous approaches for considering the interaction between these pairs of graphs have focused on the node level, leading to high computational costs and suboptimal performance. 
+To address this issue, we propose a novel, efficient graph-level approach for extracting interaction representation using co-attention in graph pooling. 
+Our method, Co-Attention Graph Pooling (CAGPool), shows competitive performance compared to existing methods on both classification and regression tasks on real-world datasets, while maintaining low computational complexity.
 
 ## Requirements
 - Python 3.7 or higher

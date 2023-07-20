@@ -1,5 +1,5 @@
 # Co-attention Graph Pooling for Efficient Pairwise Graph Interaction Learning
-This repository provides an implementation of Co-Attention Graph Pooling (CAGPool) model in the paper 'Co-attention Graph Pooling for Efficient Pairwise Graph Interaction Learning' (IEEE Access) using PyTorch and the PyTorch Geometric library. 
+This repository provides an implementation of Co-Attention Graph Pooling (CAGPool) model in the paper **Co-attention Graph Pooling for Efficient Pairwise Graph Interaction Learning** (IEEE Access) using PyTorch and the PyTorch Geometric library. 
 
 <p align="center"><img width="100%" src="./imgs/CAGPool.png"></p>
 
@@ -80,3 +80,6 @@ python main.py --cfg path/to/config --phase test
 
 After running the script, the trained model will be saved to the directory specified in the configuration file. During the testing phase, the Area Under the Receiver Operating Characteristic (AUROC), Area Under Precision Recall Curve (AUPRC), and Average Precision at 50 (AP50) will be printed to the console.
 
+
+## Citation
+TBA

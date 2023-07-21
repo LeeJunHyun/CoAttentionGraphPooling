@@ -1,5 +1,5 @@
 # Co-attention Graph Pooling for Efficient Pairwise Graph Interaction Learning
-This repository provides an implementation of Co-Attention Graph Pooling (CAGPool) model in the paper **Co-attention Graph Pooling for Efficient Pairwise Graph Interaction Learning** (IEEE Access) using PyTorch and the PyTorch Geometric library. 
+This repository provides an implementation of Co-Attention Graph Pooling (CAGPool) model in the paper **Co-attention Graph Pooling for Efficient Pairwise Graph Interaction Learning** (IEEE Access) by authors: Junhyun Lee*, Bumsoo Kim*, Minji Jeon, and Jaewoo Kang. 
 
 <p align="center"><img width="100%" src="./imgs/CAGPool.png"></p>
 
